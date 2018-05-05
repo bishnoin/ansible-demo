@@ -1,4 +1,4 @@
-#This is to configure a wordpress cms
+#This is a change
 - name: Configure Servers
   hosts: tag_cms_wordpress
   user: ec2-user
