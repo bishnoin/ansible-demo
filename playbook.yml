@@ -1,0 +1,11 @@
+#This is to configure a wordpress cms
+- name: Configure Servers
+  hosts: tag_cms_wordpress
+  user: ec2-user
+  become: True
+  gather_facts: True
+
+
+  roles:
+    - server
+    - wordpress
